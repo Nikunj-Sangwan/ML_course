@@ -1,0 +1,155 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "ml_course-test",
+        "directory": "/Users/nikunj_sangwan/ML_course",
+        "workspaceDir": "/Users/nikunj_sangwan/ML_course",
+        "sources": [
+            "/Users/nikunj_sangwan/ML_course/src/test/scala",
+            "/Users/nikunj_sangwan/ML_course/src/test/scala-2.12",
+            "/Users/nikunj_sangwan/ML_course/src/test/scala-2",
+            "/Users/nikunj_sangwan/ML_course/src/test/java",
+            "/Users/nikunj_sangwan/ML_course/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "ml_course"
+        ],
+        "classpath": [
+            "/Users/nikunj_sangwan/ML_course/.bloop/ml_course/scala-2.12/classes",
+            "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+        ],
+        "out": "/Users/nikunj_sangwan/ML_course/.bloop/ml_course",
+        "classesDir": "/Users/nikunj_sangwan/ML_course/.bloop/ml_course/scala-2.12/test-classes",
+        "resources": [
+            "/Users/nikunj_sangwan/ML_course/src/test/resources",
+            "/Users/nikunj_sangwan/ML_course/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.14",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-library.jar",
+                "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-compiler.jar",
+                "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/jline.jar",
+                "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-reflect.jar",
+                "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/jansi.jar",
+                "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/nikunj_sangwan/ML_course/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/nikunj_sangwan/Library/Caches/Coursier/jvm/adopt@1.8.0-292/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/nikunj_sangwan/ML_course"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/nikunj_sangwan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.14",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/nikunj_sangwan/.sbt/boot/scala-2.12.14/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/nikunj_sangwan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
